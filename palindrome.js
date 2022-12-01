@@ -1,12 +1,12 @@
+// 1. Que Check Palindrome
 
-// 2. Check Palindrome
-
-let rev="";
-let str="madam";
-for(let i=0;i<=str.length-1;i++){
-       rev=rev+str[i];
-    }if(rev==str){
-       console.log("Yes");
-     }else{
-         console.log("No");
-      }
+let bag="";
+   for(let i=str.length-1; i>=0; i--){
+       bag+=str[i];
+   
+   }
+    if(bag==str){
+            console.log("Yes");
+        }else{
+            console.log("No");
+        }   
